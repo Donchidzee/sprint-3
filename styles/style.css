@@ -1,3 +1,13 @@
+@font-face {
+	font-family: 'Inter';
+	src: local('Inter'),
+	     url('/inter/Inter\ \(web\)/woff2') format('woff2'),
+	     url('/inter/Inter\ \(web\)/woff') format('woff');
+	font-weight: normal;
+	font-style: normal;
+}
+
 .page {
     margin: 0 auto;
 }
+
