@@ -12,7 +12,53 @@
 	
 	font-family: 'Inter';
 	background-color: #2A2C2F;	
+
+	max-width: 1600px;
+	min-width: 1280px;
+	height: 10226px;
+
+	border: 1px solid #2A2C2F; 
+	
+	display: flex;
+	flex-direction: column;
 }
 
+.header {
+	width: 1184px;
+	height: 52px;
 
+	/* border: 1px solid white; */
 
+	align-self: center;
+
+	margin-top: 30px;
+}
+
+.header__logo {
+	width: 176.58px;
+	height: 52px;
+
+	/* border: 1px solid white; */
+}
+
+.header__lang {
+	float: right;
+
+	text-decoration: none;
+	font-size: 24px;
+	line-height: 23px;
+
+	width: 30px;
+	height: 23px;
+
+	color: white;
+
+	margin-top: 17px;
+	margin-left: 18px;
+
+	/* border: 1px solid white; */
+}
+
+.header__lang:hover {
+	border-bottom: 1px solid white;
+}
