@@ -27,7 +27,7 @@ body {
 	width: 1184px;
 	height: 52px;
 
-	border: 1px solid white;
+	/* border: 1px solid white; */
 
 	margin-top: 30px;
 	margin-right: auto;
@@ -72,10 +72,13 @@ body {
 
 
 
+
+
+
 .lead {
 	width: 985px;
 
-	border: 1px solid white;
+	/* border: 1px solid white; */
 
 	margin-top: 48px;
 	margin-right: auto;
@@ -151,6 +154,10 @@ body {
 
 
 
+
+
+
+
 .intro {
 	width: 984px;
 	height: 417px;
@@ -159,7 +166,7 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 
-	border: 1px solid white;
+	/* border: 1px solid white; */
 }
 
 .intro__title {
@@ -257,6 +264,10 @@ body {
 
 
 
+
+
+
+
 .photo-grid {
 	width: 1184px;
 	height: 596px;
@@ -281,6 +292,11 @@ body {
 
 	/* border: 1px solid white; */
 }
+
+
+
+
+
 
 
 
@@ -421,7 +437,6 @@ body {
 
 .video {
 	width: 1184px;
-	height: 648px;
 
 	margin-right: auto;
 	margin-left: auto;
@@ -434,11 +449,8 @@ body {
 .content-title {
 	margin-right: auto;
 	margin-left: auto;
-	margin-top: 0;
-	margin-bottom: 0;
 
 	width: 800px;
-	height: 147px;
 
 	font-style: normal;
 	font-weight: 900;
@@ -447,11 +459,12 @@ body {
 	text-align: center;
 
 	color: #FFFFFF;
+
+	/* border: 1px solid white; */
 }
 
 .content-subtitle {
 	width: 640px;
-	height: 58px;
 
 	font-style: normal;
 	font-weight: normal;
@@ -464,7 +477,8 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 48px;
-	margin-bottom: 0;
+
+	/* border: 1px solid white; */
 }
 
 .video__container {
@@ -474,7 +488,6 @@ body {
 	margin-right: auto;
 	margin-left: auto;
 	margin-top: 72px;
-	margin-bottom: 0;
 
 	/* border: 1px solid white; */
 	
@@ -496,13 +509,15 @@ body {
 	background-image: url('/images/observatory.png');
 }
 
-.video__opacity {
-	width: 583px;
-	height: 323px;
+.opacity {
+	width: 100%;
+	height: 100%;
 
 	background: #000000;
 	border-radius: 5px;
 	opacity: 0.5;
+
+	padding: 0.1px;
 
 	/* border: 1px solid white; */
 }
@@ -510,7 +525,6 @@ body {
 .video__icon_play {
 	margin-top: 30px;
 	margin-left: 30px;
-	margin-bottom: 0;
 }
 
 .video__duration {
@@ -519,7 +533,6 @@ body {
 
 	margin-left: 30px;
 	margin-top: 94px;
-	margin-bottom: 0;
 
 	font-style: normal;
 	font-weight: 500;
@@ -536,7 +549,6 @@ body {
 
 	margin-left: 30px;
 	margin-top: 12px;
-	margin-bottom: 0;
 
 	font-style: normal;
 	font-weight: 900;
@@ -552,12 +564,94 @@ body {
 
 	margin-left: 30px;
 	margin-top: 18px;
-	margin-bottom: 0;
 
 	font-style: normal;
 	font-weight: normal;
 	font-size: 14px;
 	line-height: 15px;
+
+	color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.additional {
+	width: 1184px;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 102px;
+
+	/* border: 1px solid white; */
+}
+
+.additional__container {
+	margin-top: 72px;
+
+	width: 100%;
+
+	display: flex;
+	justify-content: space-between;
+}
+
+.additional__item {
+	width: 284px;
+	height: 330px;
+
+	/* border: 1px solid white; */
+
+	background-image: url('/images/town.png');
+}
+
+.additional__item:nth-child(2) {
+	background-image: url('/images/ural.png');
+}
+
+.additional__item:nth-child(3) {
+	background-image: url('/images/combinat.png');
+}
+
+.additional__item:nth-child(4) {
+	background-image: url('/images/nicola.png');
+}
+
+.additional__heading {
+	width: 248px;
+	height: 55px;
+
+	font-style: normal;
+	font-weight: 900;
+	font-size: 27px;
+	line-height: 29px;
+
+	margin-top: 30px; 
+	margin-right: auto;
+	margin-left: auto;
+
+	color: #FFFFFF;
+}
+
+.addtional__text {
+	width: 248px;
+	height: 54px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 20px;
+
+	margin-top: 141px;
+	margin-right: auto;
+	margin-left: auto;
 
 	color: #FFFFFF;
 }
