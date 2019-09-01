@@ -725,3 +725,58 @@ body {
 
 	width: 100%;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.cover {
+	width: 1184px;
+	height: 594px;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 102px;
+
+	background-image: url('/images/trains.png');
+}
+
+.cover__title {
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 274px;
+
+	width: 1094.27px;
+
+	font-style: normal;
+	font-weight: 900;
+	font-size: 72px;
+	line-height: 78px;
+	text-align: center;
+
+	color: #FFFDFD;
+}
+
+.cover__subtitle {
+	width: 382px;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 134px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #FFFFFF;
+}
