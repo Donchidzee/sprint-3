@@ -780,3 +780,71 @@ body {
 
 	color: #FFFFFF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.emblem {
+	width: 1184px;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 82px;
+
+	/* border: 1px solid white; */
+}
+
+.emblem__title {
+	width: 443px;
+
+	font-style: normal;
+	font-weight: 900;
+	font-size: 42px;
+	line-height: 46px;
+
+	color: #FFFFFF;
+}
+
+.emblem__container {
+	width: 100%;
+
+	margin-top: 82px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+}
+
+.emblem__item {
+	width: 208px;
+}
+
+.emblem__image {
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.emblem__city {
+	width: 100%;
+
+	margin-top: 35px;
+
+	font-style: normal;
+	font-weight: bold;
+	font-size: 24px;
+	line-height: 26px;
+	text-align: center;
+
+	color: #CCCCCC;
+}
