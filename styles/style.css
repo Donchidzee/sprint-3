@@ -655,3 +655,73 @@ body {
 
 	color: #FFFFFF;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+.comments {
+	width: 1184px;
+
+	margin-right: auto;
+	margin-left: auto;
+	margin-top: 102px;
+}
+
+.comments__container {
+	width: 100%;
+
+	margin-top: 72px;
+
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+
+
+	/* border: 1px solid white; */
+}
+
+.comment {
+	width: 382px;
+
+	/* border: 1px solid white; */
+}
+
+.comment__image {
+	width: 97px;
+	height: 97px;
+}
+
+.comment__quote {
+	font-style: normal;
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 24px;
+
+	width: 100%;
+
+	margin-top: 42px;
+
+	color: #FFFFFF;
+}
+
+.comment__author {
+	font-style: normal;
+	font-weight: 900;
+	font-size: 14px;
+	line-height: 24px;
+
+	color: #FFFFFF;
+
+	margin-top: 24px;
+
+	width: 100%;
+}
