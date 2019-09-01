@@ -18,7 +18,6 @@ body {
 	background-color: #2A2C2F;	
 
 	width: 1440px;
-	height: 10226px;
 
 	border: 1px solid #2A2C2F;
 }
@@ -847,4 +846,103 @@ body {
 	text-align: center;
 
 	color: #CCCCCC;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.barentsburg {
+	width: 1184px;
+
+	margin-top: 85px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+.barentsburg__title {
+	width: 583px;
+
+	font-style: normal;
+	font-weight: 900;
+	font-size: 42px;
+	line-height: 61px;
+
+	color: #FFFFFF;
+}
+
+.barentsburg__coord {
+	margin-top: 20px;
+
+	width: 583px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 42px;
+	line-height: 61px;
+
+	color: #FFFFFF;
+}
+
+.barentsburg__map {
+	margin-top: 48px;
+}
+
+.barentsburg__container {
+	width: 100%;
+
+	margin-top: 48px;
+
+	display: flex;
+	flex-direction: row;
+}
+
+.barentsburg__text {
+	width: 380px;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+
+	color: #FFFFFF;
+}
+
+.barentsburg__url {
+	margin-left: 120px;
+
+	width: 282px;
+}
+
+.barentsburg__url-heading {
+	width: 100%;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 12px;
+	line-height: 20px;
+	letter-spacing: 0.2em;
+
+	color: #AAAAAA;
+}
+
+.barentsburg__link {
+	margin-top: 12px;
+
+	width: 100%;
+
+	font-style: normal;
+	font-weight: normal;
+	font-size: 18px;
+	line-height: 30px;
+	text-decoration-line: underline;
+
+	color: #FFFFFF;
 }
