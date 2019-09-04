@@ -58,7 +58,7 @@ body {
 	/* border: 1px solid white; */
 }
 
-.header__lang:hover {
+.header__lang_active:hover {
 	border-bottom: 1px solid white;
 }
 
