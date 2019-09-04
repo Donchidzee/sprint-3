@@ -1,4 +1,5 @@
 <!DOCTYPE html>
+<!-- Надо исправить: документ написан на русском языке. Следовательно, локализацию надо прописать соответствующую -->
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -6,13 +7,16 @@
     <link rel="stylesheet" href="/styles/normalize.css" />
     <link rel="stylesheet" href="/styles/reset.css">
     <link rel="stylesheet" href="/styles/style.css" />
+    <!-- Надо исправить: в путях до файлов не стоит использовать пробелы (это запрещенные символы) -->
     <link rel="stylesheet" href="/fonts/inter/Inter (web)/inter.css" />
     <title>Sprint-3</title>
   </head>
   <body>
     <div class="page">
       <header class="header">
+        <!-- Можно лучше: когда ты уже начнешь писать контент атрибута alt для людей?! -->
         <img class="header__logo" src="/images/logo.png" alt="russia map" />
+        <!-- Можно лучше: стоит добавить класс для активной ссылки -->
         <a class="header__lang" href="#">En</a>
         <a class="header__lang" href="#">Ru</a>
       </header>
@@ -70,6 +74,7 @@
         </section>
 
         <section class="places">
+          <!-- Можно лучше: присмотрись к тегу article -->
           <div class="place">
             <h1 class="place__title">Куршская коса</h1>
             <div class="place__website">
@@ -195,6 +200,7 @@
           <div class="comments__container">
             <div class="comment">
               <img src="/images/man.png" alt="man" class="comment__image">
+              <!-- Можно лучше: стоит использовать семантический тег blockquote и cite -->
               <p class="comment__quote">«Если вам кажется, что в России ничего не происходит, то просто выгляньте “наружу”…»</p>
               <p class="comment__author">Виктор Лягушкин</p>
             </div>
@@ -271,6 +277,7 @@
         <a href="#" class="footer__link">Расписание</a>
         <a href="#" class="footer__link">Календарь</a>
         <a href="#" class="footer__link">Путешествия</a>
+        <!-- Можно лучше: для иконок стоит использовать html-мнемоники -->
         <p class="footer__copyright">© 2019. donchik-ponchik</p>
       </footer>
     </div>
