@@ -9,6 +9,8 @@
 
 body {
 	background-color: #2A2C2F;
+
+	margin: 0 auto;
 }
 
 .page {
@@ -17,16 +19,19 @@ body {
 	font-family: 'Inter';
 	background-color: #2A2C2F;	
 
-	width: 1440px;
+	max-width: 95%;
 
-	border: 1px solid #2A2C2F;
+	margin-right: auto;
+	margin-left: auto;
+
+	border: 1px solid white;
 }
 
 .header {
-	width: 1184px;
+	width: 90%;
 	height: 52px;
 
-	/* border: 1px solid white; */
+	border: 1px solid white;
 
 	margin-top: 30px;
 	margin-right: auto;
@@ -37,7 +42,7 @@ body {
 	width: 176.58px;
 	height: 52px;
 
-	/* border: 1px solid white; */
+	border: 1px solid white;
 }
 
 .header__lang {
@@ -55,7 +60,7 @@ body {
 	margin-top: 17px;
 	margin-left: 18px;
 
-	/* border: 1px solid white; */
+	border: 1px solid white;
 }
 
 .header__lang_active:hover {
@@ -77,7 +82,7 @@ body {
 .lead {
 	width: 985px;
 
-	/* border: 1px solid white; */
+	border: 1px solid white;
 
 	margin-top: 48px;
 	margin-right: auto;
@@ -142,7 +147,7 @@ body {
 
 	color: #FFFFFF;
 
-	/* border: 1px solid white; */
+	border: 1px solid white;
 }
 
 
@@ -1006,4 +1011,27 @@ body {
 	align-self: flex-end;
 
 	/* border: 1px solid white; */
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width: 1200px) {
+	body {
+		background-color: orange !important;
+	}
 }
